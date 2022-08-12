@@ -1,6 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+// head는 단지 노드의 포인터. 따라서 첫번째 노드가 바뀔 때마다 head의 값이 계속 바뀜
+// 연결리스트의 첫번째 노드 = *head
+
 typedef struct node_
 {
 	char *content;
